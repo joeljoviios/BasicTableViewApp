@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		12DB2D0D1F18C1F300F06BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB2D0C1F18C1F300F06BA8 /* AppDelegate.swift */; };
-		12DB2D0F1F18C1F300F06BA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB2D0E1F18C1F300F06BA8 /* ViewController.swift */; };
 		12DB2D121F18C1F300F06BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12DB2D101F18C1F300F06BA8 /* Main.storyboard */; };
 		12DB2D141F18C1F300F06BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12DB2D131F18C1F300F06BA8 /* Assets.xcassets */; };
 		12DB2D171F18C1F300F06BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12DB2D151F18C1F300F06BA8 /* LaunchScreen.storyboard */; };
 		12DB2D221F18C1F300F06BA8 /* LondonLandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB2D211F18C1F300F06BA8 /* LondonLandmarksTests.swift */; };
 		12DB2D2D1F18C1F300F06BA8 /* LondonLandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB2D2C1F18C1F300F06BA8 /* LondonLandmarksUITests.swift */; };
+		12DB2D3D1F18C9E400F06BA8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB2D3C1F18C9E400F06BA8 /* TableViewController.swift */; };
+		12DB2D3F1F18CA0600F06BA8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB2D3E1F18CA0600F06BA8 /* TableViewCell.swift */; };
+		12DB2D411F18D2FF00F06BA8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB2D401F18D2FF00F06BA8 /* DetailViewController.swift */; };
+		12DB2D441F18D7B300F06BA8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DB2D431F18D7B300F06BA8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		12DB2D091F18C1F300F06BA8 /* LondonLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LondonLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12DB2D0C1F18C1F300F06BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12DB2D0E1F18C1F300F06BA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12DB2D111F18C1F300F06BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12DB2D131F18C1F300F06BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12DB2D161F18C1F300F06BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		12DB2D281F18C1F300F06BA8 /* LondonLandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LondonLandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12DB2D2C1F18C1F300F06BA8 /* LondonLandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LondonLandmarksUITests.swift; sourceTree = "<group>"; };
 		12DB2D2E1F18C1F300F06BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12DB2D3C1F18C9E400F06BA8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		12DB2D3E1F18CA0600F06BA8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		12DB2D401F18D2FF00F06BA8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		12DB2D431F18D7B300F06BA8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12DB2D441F18D7B300F06BA8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,7 @@
 				12DB2D201F18C1F300F06BA8 /* LondonLandmarksTests */,
 				12DB2D2B1F18C1F300F06BA8 /* LondonLandmarksUITests */,
 				12DB2D0A1F18C1F300F06BA8 /* Products */,
+				12DB2D421F18D7B300F06BA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				12DB2D0C1F18C1F300F06BA8 /* AppDelegate.swift */,
-				12DB2D0E1F18C1F300F06BA8 /* ViewController.swift */,
+				12DB2D3C1F18C9E400F06BA8 /* TableViewController.swift */,
+				12DB2D3E1F18CA0600F06BA8 /* TableViewCell.swift */,
+				12DB2D401F18D2FF00F06BA8 /* DetailViewController.swift */,
 				12DB2D101F18C1F300F06BA8 /* Main.storyboard */,
 				12DB2D131F18C1F300F06BA8 /* Assets.xcassets */,
 				12DB2D151F18C1F300F06BA8 /* LaunchScreen.storyboard */,
@@ -123,6 +133,14 @@
 				12DB2D2E1F18C1F300F06BA8 /* Info.plist */,
 			);
 			path = LondonLandmarksUITests;
+			sourceTree = "<group>";
+		};
+		12DB2D421F18D7B300F06BA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12DB2D431F18D7B300F06BA8 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +211,11 @@
 				TargetAttributes = {
 					12DB2D081F18C1F300F06BA8 = {
 						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					12DB2D1C1F18C1F300F06BA8 = {
 						CreatedOnToolsVersion = 9.0;
@@ -256,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12DB2D0F1F18C1F300F06BA8 /* ViewController.swift in Sources */,
+				12DB2D3F1F18CA0600F06BA8 /* TableViewCell.swift in Sources */,
 				12DB2D0D1F18C1F300F06BA8 /* AppDelegate.swift in Sources */,
+				12DB2D3D1F18C9E400F06BA8 /* TableViewController.swift in Sources */,
+				12DB2D411F18D2FF00F06BA8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

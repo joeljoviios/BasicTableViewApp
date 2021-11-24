@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  LondonLandmarks
 //
-//  Created by Aaron Caines on 14/07/2017.
-//  Copyright © 2017 Aaron Caines. All rights reserved.
+//  Created by Joel on 06/07/21.
+//  Copyright © 2021 LBrands. All rights reserved.
 //
 
 import UIKit
